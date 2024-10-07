@@ -20,8 +20,8 @@ public class CalcModelTest {
     @Test
     public void testMultiplication() {
         CalcModel model = new CalcModel();
-        double result = model.performCalculation(5, 3, "*");
-        assertEquals(15.0, result, 0.001);
+        double result = model.performCalculation(8, 7, "*");
+        assertEquals(56.0, result, 0.001);
     }
 
     @Test
