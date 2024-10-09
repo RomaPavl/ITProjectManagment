@@ -77,7 +77,7 @@ public class CalcController {
                     double secondOperand = Double.parseDouble(parts[1]);
                     model.setFirstOperand(firstOperand);
                     model.setSecondOperand(secondOperand);
-    
+
                     double result = model.calculate();
                     view.setDisplay(currentText + " = " + result);
                 }
