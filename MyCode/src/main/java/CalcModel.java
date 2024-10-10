@@ -1,4 +1,4 @@
-package Code;
+package src.main.java;
 
 public class CalcModel {
     private double firstOperand;

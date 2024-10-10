@@ -1,8 +1,8 @@
-package Code;
+package test.java;
 
-import static org.junit.Assert.*;
-import org.junit.Test;
-import Code.CalcModel;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+import src.main.java.CalcModel;
 
 public class CalcModelTest {
 
